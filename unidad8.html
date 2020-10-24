@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Validación Formulario</title>
+</head>
+<body>
+    <form action="#" method="POST" id="formulario" onsubmit="validar();">
+        <div>INGRESO AL SISTEMA</div>
+        <br>
+        <div>
+            <label for="usuario">Usuario:</label>
+            <input type="text" name="usuario" placeholder="usua@rio" id="usuario">
+        </div>
+        <br>
+        
+        <div>
+            <label for="clave">Clave:</label>
+            <input type="password" name="clave" id="clave">
+        </div>
+        <br>
+
+        <div>
+            <input type="submit" name="enviar" value="Ingresar">
+        </div>
+    </form>
+
+    <script src="control.js"></script>
+
+</body>
+</html>
